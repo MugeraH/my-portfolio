@@ -1,7 +1,7 @@
 # MY PORTFOLIO WEBSITE
 
 ## Visit my website with this link
-### [My-Portfolio](https://mugerah.github.io/my-portfolio/)
+   ### [My-Portfolio](https://mugerah.github.io/my-portfolio/)
 
 ## Description
 This is my portfolio website made as my first independent project assignment in Moringa prep program 
@@ -17,7 +17,7 @@ email :mugerahughes@gmail.com
 * CSS
 
 ## License
-### [MIT LICENSE]()
+### [MIT LICENSE](https://github.com/MugeraH/my-portfolio/blob/main/license)
 
 
 
