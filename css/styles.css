@@ -3,14 +3,14 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  color: white;
 }
 body,
 html {
   font-family: "Poppins", sans-serif;
-  background-color: rgba(29, 28, 28, 0.699);
+  /* background-color: rgba(29, 28, 28, 0.699); */
   position: relative;
   height: 100%;
+  color: black;
 }
 .container {
   margin: 1% 10%;
@@ -22,7 +22,8 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: white;
+  color: black;
+  /* color: white; */
 }
 nav .logo {
   color: inherit;
@@ -56,8 +57,17 @@ nav ul li {
   border-bottom: 2px solid rgb(28, 162, 224);
 }
 
-section{
-  height: 100%;
+section {
+  height: 120%;
+  margin: 30px;
+}
+.introduction .profile .education .interests {
+  padding: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .introduction {
