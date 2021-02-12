@@ -15,6 +15,13 @@ body {
 .highlight {
   color: rgb(28, 162, 224);
 }
+hr {
+  width: 70px;
+  padding: 2.5px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(28, 162, 224);
+}
 .container {
   margin: 40px 50px;
   background-color: rgba(27, 27, 27, 0.993);
@@ -32,13 +39,13 @@ nav {
   color: white;
 }
 nav .logo {
-  color:inherit;
+  color: inherit;
   font-size: 27px;
   text-decoration: none;
   font-weight: 800;
   letter-spacing: 2px;
   text-transform: uppercase;
-   border-bottom: 3px solid rgb(28, 162, 224); */
+  border-bottom: 3px solid rgb(28, 162, 224);
 }
 nav ul {
   display: flex;
@@ -82,14 +89,14 @@ nav ul li {
   border-radius: 50%;
 }
 
-.name {
+.introduction .name {
   font-size: 40px;
 }
 .introduction a {
   display: block;
   text-align: center;
   text-decoration: none;
-  margin: 10px;
+  margin-top: 10px;
   padding: 10px 0px;
   width: 100px;
   background-color: rgba(27, 27, 27, 0.993);
@@ -98,6 +105,16 @@ nav ul li {
   border: 3px solid rgb(28, 162, 224);
 }
 
+.profile {
+  /* background-color: blue; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px 120px;
+}
+.profile .title {
+  align-self: flex-start;
+}
 .footer {
   position: sticky;
   font-size: 13px;
