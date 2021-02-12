@@ -3,9 +3,17 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  color: white;
 }
-body {
+body,
+html {
   font-family: "Poppins", sans-serif;
+  background-color: rgba(29, 28, 28, 0.699);
+  position: relative;
+  height: 100%;
+}
+.container {
+  margin: 1% 10%;
 }
 
 nav {
@@ -14,7 +22,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: black;
+  color: white;
 }
 nav .logo {
   color: inherit;
@@ -41,13 +49,46 @@ nav ul li {
   text-decoration: none;
   font-size: 18px;
   cursor: pointer;
-  border: 1px solid rgb(253, 252, 252);
+  border: 1px solid black;
 }
 
 .nav-links li a:hover {
   border-bottom: 2px solid rgb(28, 162, 224);
 }
+
+section{
+  height: 100%;
+}
+
+.introduction {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 100px;
+}
+.introduction img {
+  /* width: 200px; */
+
+  border: 10px solid grey;
+  border-radius: 50%;
+}
+.introduction span {
+  font-size: 40px;
+}
+.introduction a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px;
+  padding: 10px 0px;
+  width: 100px;
+  background-color: black;
+  border-radius: 10%;
+  border: 3px solid grey;
+}
+
 .footer {
+  position: sticky;
   font-size: 13px;
   background-color: black;
   color: white;
