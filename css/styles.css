@@ -4,16 +4,22 @@
   margin: 0;
   box-sizing: border-box;
 }
-body,
-html {
+body {
   font-family: "Poppins", sans-serif;
-  /* background-color: rgba(29, 28, 28, 0.699); */
+  background-color: rgb(64, 64, 65);
   position: relative;
   height: 100%;
-  color: black;
+  color: white;
+}
+
+.highlight {
+  color: rgb(28, 162, 224);
 }
 .container {
-  margin: 1% 10%;
+  margin: 40px 50px;
+  background-color: rgba(27, 27, 27, 0.993);
+  height: 100%;
+  border-radius: 15px;
 }
 
 nav {
@@ -23,15 +29,16 @@ nav {
   justify-content: space-between;
   align-items: center;
   color: black;
-  /* color: white; */
+  color: white;
 }
 nav .logo {
-  color: inherit;
-  font-size: 24px;
+  color:inherit;
+  font-size: 27px;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 800;
   letter-spacing: 2px;
   text-transform: uppercase;
+   border-bottom: 3px solid rgb(28, 162, 224); */
 }
 nav ul {
   display: flex;
@@ -50,39 +57,32 @@ nav ul li {
   text-decoration: none;
   font-size: 18px;
   cursor: pointer;
-  border: 1px solid black;
+  border: 2.5px solid rgba(27, 27, 27, 0.993);
 }
 
 .nav-links li a:hover {
-  border-bottom: 2px solid rgb(28, 162, 224);
+  border-bottom: 2.5px solid rgb(28, 162, 224);
 }
 
-section {
-  height: 120%;
-  margin: 30px;
-}
-.introduction .profile .education .interests {
-  padding: 20px;
-  margin-top: 30px;
-  margin-bottom: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
+.section {
+  width: 100%;
+  height: 500px;
+  margin-bottom: 30px;
 }
 
 .introduction {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  margin: 0px 100px;
+  padding: 0px 120px;
 }
 .introduction img {
-  /* width: 200px; */
-
-  border: 10px solid grey;
+  height: 250px;
+  border: 10px solid rgb(28, 162, 224);
   border-radius: 50%;
 }
-.introduction span {
+
+.name {
   font-size: 40px;
 }
 .introduction a {
@@ -92,15 +92,15 @@ section {
   margin: 10px;
   padding: 10px 0px;
   width: 100px;
-  background-color: black;
+  background-color: rgba(27, 27, 27, 0.993);
+  color: white;
   border-radius: 10%;
-  border: 3px solid grey;
+  border: 3px solid rgb(28, 162, 224);
 }
 
 .footer {
   position: sticky;
   font-size: 13px;
-  background-color: black;
   color: white;
   text-align: center;
   padding: 7px;
