@@ -28,6 +28,7 @@ hr {
   background-color: rgba(27, 27, 27, 0.993);
   height: 100%;
   border-radius: 15px;
+
 }
 
 nav {
@@ -113,13 +114,33 @@ nav ul li {
   padding: 50px 120px;
 }
 .profile .title {
-  align-self: flex-start;
+  align-self: center;
+  margin-bottom: 10px;
 }
 .my-profile p {
   line-height: 30px;
+
+}
+.interest {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px 120px;
+}
+.interest .title {
+  align-self: center;
+}
+.interest-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.interest .activity {
+  margin: 60px;
 }
 
-
+.interest-container img {
+}
 
 .projects {
   display: flex;
