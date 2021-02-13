@@ -28,7 +28,6 @@ hr {
   background-color: rgba(27, 27, 27, 0.993);
   height: 100%;
   border-radius: 15px;
-
 }
 
 nav {
@@ -76,7 +75,7 @@ nav ul li {
 .section {
   width: 100%;
   height: 500px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .introduction {
@@ -119,34 +118,45 @@ nav ul li {
 }
 .my-profile p {
   line-height: 30px;
-
 }
-.interest {
+.top {
+  align-self: flex-start;
+  margin-top: 30px;
+  padding: 7px;
+  border-radius: 50%;
+  background-color: #000;
+}
+.interests {
   display: flex;
   align-items: center;
   flex-direction: column;
   padding: 50px 120px;
 }
-.interest .title {
+.interests .title {
   align-self: center;
+  margin-bottom: 30px;
 }
-.interest-container {
+.interests-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-.interest .activity {
-  margin: 60px;
+.interests-container img {
 }
 
-.interest-container img {
+.interests .activity {
+  text-align: center;
+  margin: 0px 60px;
+}
+.interests .activity:hover h3 {
+  color: rgb(28, 162, 224);
 }
 
 .projects {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 50px 80px;
+  padding: 0px 80px;
 }
 .projects .title {
   margin-left: 48px;
@@ -164,6 +174,11 @@ nav ul li {
   width: 250px;
   height: 220px;
   border-radius: 10px;
+  -webkit-box-shadow: 0px 3px 7px 2px rgb(3, 3, 3);
+  -moz-box-shadow: 0px 3px 7px 2px rgb(3, 3, 3);
+  box-shadow: 0px 3px 7px 2px rgb(3, 3, 3);
+}
+.projects .card:hover {
   -webkit-box-shadow: 0px 3px 7px 2px rgb(28, 162, 224);
   -moz-box-shadow: 0px 3px 7px 2px rgb(28, 162, 224);
   box-shadow: 0px 3px 7px 2px rgb(28, 162, 224);
