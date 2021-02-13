@@ -116,6 +116,38 @@ nav ul li {
   align-self: flex-start;
 }
 
+.project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px 80px;
+}
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 15px;
+}
+
+.projects .card {
+  background-color: grey;
+  margin: 10px;
+  width: 230px;
+  height: 220px;
+}
+
+.card .img {
+  background-color: green;
+  height: 60%;
+}
+.project-info {
+  height: 40%;
+}
+.card p {
+  color: red;
+  font-size: 13px;
+  padding: 10px;
+}
 .footer {
   position: sticky;
   font-size: 13px;
