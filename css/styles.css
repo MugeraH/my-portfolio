@@ -145,9 +145,9 @@ nav ul li {
 .top {
   align-self: flex-start;
   margin-top: 30px;
-  padding: 7px;
+  padding: 8px;
   border-radius: 50%;
-  background-color: #000;
+  background-color: rgb(28, 162, 224);
 }
 .interests {
   display: flex;
