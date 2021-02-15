@@ -5,11 +5,33 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
+* {
+	scrollbar-width: thin;
+	scrollbar-color: rgb(71, 194, 243) transparent;
+}
+
+*::-webkit-scrollbar {
+	width: 5px;
+}
+*::-webkit-scrollbar-track {
+	background: transparent;
+}
+*::-webkit-scrollbar-thumb {
+	background: rgb(71, 194, 243);
+	border-radius: 20px;
+	border: transparent;
+}
+
+.selected {
+	background: rgb(71, 194, 243);
+}
+
 body {
   font-family: "Poppins", sans-serif;
   background-color: rgb(64, 64, 65);
   position: relative;
-  height: 100%;
+  height: 100vh;
+padding: 30px 0px;
   color: white;
 }
 
@@ -24,10 +46,11 @@ hr {
   background-color: rgb(28, 162, 224);
 }
 .container {
-  margin: 40px 50px;
+  margin: 0px 50px;
   background-color: rgba(27, 27, 27, 0.993);
-  height: 120%;
+  height: 90vh;
   border-radius: 15px;
+  overflow: auto;
 }
 
 nav {
@@ -314,7 +337,7 @@ nav ul li {
   }
   .profile {
     display: flex;
-    align-items: center;
+
     flex-direction: column;
     padding: 10px 30px;
     font-size: 14px;
@@ -326,7 +349,7 @@ nav ul li {
 
   .interests {
     display: flex;
-    align-items: center;
+
     padding: 50px 0px;
     margin-bottom: 300px;
   }
@@ -336,19 +359,16 @@ nav ul li {
   }
 
   .interests .activity {
-    text-align: center;
     margin: 0px 10px;
   }
 
   .projects {
     display: flex;
-    justify-content: center;
+
     margin-bottom: 400px;
   }
   .projects-container {
     display: flex;
-    align-items: center;
-    justify-content: center;
   }
   .projects .card {
     width: 260px;
