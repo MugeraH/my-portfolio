@@ -26,7 +26,7 @@ hr {
 .container {
   margin: 40px 50px;
   background-color: rgba(27, 27, 27, 0.993);
-  height: 100%;
+  height: 120%;
   border-radius: 15px;
 }
 
@@ -74,7 +74,7 @@ nav ul li {
 
 .section {
   width: 100%;
-  height: 500px;
+  height: 480px;
   margin-bottom: 20px;
 }
 
@@ -141,12 +141,13 @@ nav ul li {
   flex-wrap: wrap;
   justify-content: center;
 }
-.interests-container img {
-}
 
 .interests .activity {
   text-align: center;
   margin: 0px 60px;
+}
+.interests-container .activity img {
+  width: 100px;
 }
 .interests .activity:hover h3 {
   color: rgb(28, 162, 224);
@@ -185,7 +186,6 @@ nav ul li {
 }
 .card .img {
   height: 50%;
-  
 }
 .card .img img {
   height: 100%;
@@ -234,4 +234,159 @@ nav ul li {
 .copyright a {
   text-decoration: none;
   color: rgb(28, 162, 224);
+}
+@media only screen and (max-width: 982px) {
+  .section {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 20px;
+  }
+  .container {
+    background-color: rgba(27, 27, 27, 0.993);
+    height: 100%;
+    border-radius: 15px;
+  }
+  .introduction {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 0px 50px;
+  }
+  .introduction img {
+    height: 200px;
+    border: 10px solid rgb(28, 162, 224);
+    border-radius: 50%;
+  }
+  .introduction .name {
+    font-size: 25px;
+    line-height: 12px;
+  }
+  .button {
+    margin-top: 0px;
+    padding: 2px 0px;
+    width: 100px;
+  }
+  .profile {
+    display: flex;
+
+    flex-direction: column;
+    padding: 10px 30px;
+    font-size: 14px;
+  }
+  .my-profile p {
+    line-height: 18px;
+  }
+  .interests {
+    display: flex;
+    margin-bottom: 150px;
+  }
+  .projects {
+    margin-bottom: 150px;
+  }
+}
+@media only screen and (max-width: 981px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .introduction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding: 0px 50px;
+  }
+  .introduction img {
+    height: 200px;
+    border: 10px solid rgb(28, 162, 224);
+    border-radius: 50%;
+  }
+  .introduction .name {
+    font-size: 25px;
+    line-height: 12px;
+  }
+  .button {
+    margin-top: 0px;
+    padding: 2px 0px;
+    width: 100px;
+  }
+  .profile {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 30px;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .my-profile p {
+    line-height: 18px;
+  }
+
+  .interests {
+    display: flex;
+    align-items: center;
+    padding: 50px 0px;
+    margin-bottom: 300px;
+  }
+  .interests-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .interests .activity {
+    text-align: center;
+    margin: 0px 10px;
+  }
+
+  .projects {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 400px;
+  }
+  .projects-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .projects .card {
+    width: 260px;
+    height: 260px;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 700px) {
+  .container {
+    height: 100%;
+  }
+  .profile {
+    margin-bottom: 40px;
+    font-size: 14px;
+  }
+  .my-profile p {
+    line-height: 12px;
+  }
+
+  .interests {
+    margin-bottom: 330px;
+  }
+  .interests-container .activity img {
+    width: 70px;
+  }
+  .projects {
+    margin-bottom: 330px;
+  }
+  .projects .card {
+    width: 260px;
+    height: 200px;
+  }
+  .project-info {
+    height: 40%;
+    line-height: 12px;
+  }
+
+  .card p {
+    font-size: 11px;
+  }
 }
