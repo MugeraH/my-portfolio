@@ -6,24 +6,24 @@
   scroll-behavior: smooth;
 }
 * {
-	scrollbar-width: thin;
-	scrollbar-color: rgb(71, 194, 243) transparent;
+  scrollbar-width: thin;
+  scrollbar-color: rgb(71, 194, 243) transparent;
 }
 
 *::-webkit-scrollbar {
-	width: 5px;
+  width: 5px;
 }
 *::-webkit-scrollbar-track {
-	background: transparent;
+  background: transparent;
 }
 *::-webkit-scrollbar-thumb {
-	background: rgb(71, 194, 243);
-	border-radius: 20px;
-	border: transparent;
+  background: rgb(71, 194, 243);
+  border-radius: 20px;
+  border: transparent;
 }
 
 .selected {
-	background: rgb(71, 194, 243);
+  background: rgb(71, 194, 243);
 }
 
 body {
@@ -31,7 +31,7 @@ body {
   background-color: rgb(64, 64, 65);
   position: relative;
   height: 100vh;
-padding: 30px 0px;
+  padding: 30px 0px;
   color: white;
 }
 
@@ -97,15 +97,15 @@ nav ul li {
 
 .section {
   width: 100%;
-  height: 480px;
-  margin-bottom: 20px;
+  height: 450px;
+  margin-bottom: 0px;
 }
 
 .introduction {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 0px 120px;
+  padding: 0px 80px;
 }
 .introduction img {
   height: 250px;
@@ -128,6 +128,14 @@ nav ul li {
   border-radius: 10%;
   border: 3px solid rgb(28, 162, 224);
 }
+.explore {
+  align-content: center;
+  text-align: center;
+}
+.explore img {
+  background-color: rgb(28, 162, 224);
+  border-radius: 50%;
+}
 
 .profile {
   display: flex;
@@ -144,8 +152,7 @@ nav ul li {
 }
 .top {
   align-self: flex-start;
-  margin-top: 30px;
-  padding: 8px;
+  margin-top: 25px;
   border-radius: 50%;
   background-color: rgb(28, 162, 224);
 }
